@@ -18,7 +18,7 @@
     { "source": "/admin-panel",       "destination": "/app/admin-panel.html" },
     { "source": "/inbox",             "destination": "/app/inbox.html" },
     { "source": "/ui-editor",         "destination": "/app/chats.html" },
-    { "source": "/api/(.*)",          "destination": "main.py" },
+    { "source": "/main",              "destination": "main.py" },
     { "source": "/",                  "destination": "/app/index.html" }
   ],
   "headers": [
