@@ -1,17 +1,24 @@
 {
   "cleanUrls": true,
+  "builds": [
+    {
+      "src": "main.py",
+      "use": "@vercel/python"
+    }
+  ],
   "rewrites": [
     { "source": "/chat",              "destination": "/app/chats.html" },
     { "source": "/chats",             "destination": "/app/chats.html" },
     { "source": "/login",             "destination": "/app/login.html" },
-    { "source": "/",                  "destination": "/app/index.html" },
     { "source": "/payment",           "destination": "/app/payment.html" },
     { "source": "/setup-discord-app", "destination": "/app/setup-discord-app.html" },
     { "source": "/privacy",           "destination": "/app/privacy.html" },
     { "source": "/terms",             "destination": "/app/terms.html" },
     { "source": "/admin-panel",       "destination": "/app/admin-panel.html" },
     { "source": "/inbox",             "destination": "/app/inbox.html" },
-    { "source": "/ui-editor",         "destination": "/app/chats.html" }
+    { "source": "/ui-editor",         "destination": "/app/chats.html" },
+    { "source": "/api/(.*)",          "destination": "main.py" },
+    { "source": "/",                  "destination": "/app/index.html" }
   ],
   "headers": [
     {
