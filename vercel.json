@@ -1,6 +1,6 @@
 {
   "cleanUrls": true,
-"builds": [
+  "builds": [
     {
         "src": "main.py",
         "use": "@vercel/python",
