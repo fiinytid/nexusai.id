@@ -1,17 +1,17 @@
 {
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/chat",          "destination": "/chats.html" },
-    { "source": "/chats",         "destination": "/chats.html" },
-    { "source": "/login",         "destination": "/login.html" },
-    { "source": "/",              "destination": "/index.html" },
-    { "source": "/payment",       "destination": "/payment.html" },
-    { "source": "/setup-discord-app", "destination": "/setup-discord-app.html" },
-    { "source": "/privacy",       "destination": "/privacy.html" },
-    { "source": "/terms",         "destination": "/terms.html" },
-    { "source": "/admin-panel",   "destination": "/admin-panel.html" },
-    { "source": "/inbox",         "destination": "/inbox.html" },
-    { "source": "/ui-editor",     "destination": "/chats.html" }
+    { "source": "/chat",              "destination": "/app/chats.html" },
+    { "source": "/chats",             "destination": "/app/chats.html" },
+    { "source": "/login",             "destination": "/app/login.html" },
+    { "source": "/",                  "destination": "/app/index.html" },
+    { "source": "/payment",           "destination": "/payment.html" },
+    { "source": "/setup-discord-app", "destination": "/app/setup-discord-app.html" },
+    { "source": "/privacy",           "destination": "/app/privacy.html" },
+    { "source": "/terms",             "destination": "/app/terms.html" },
+    { "source": "/admin-panel",       "destination": "/app/admin-panel.html" },
+    { "source": "/inbox",             "destination": "/app/inbox.html" },
+    { "source": "/ui-editor",         "destination": "/app/chats.html" }
   ],
   "headers": [
     {
